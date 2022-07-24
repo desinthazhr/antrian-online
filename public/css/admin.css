@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+            font-family: "Poppins";
+    color: #577BC1;
+} 
+
+small {
+    color: grey;
+    margin-left: 191px;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #F6FAFF;
+    box-shadow: 1px 2px 10px grey;
+}
+
+
+.container-fluid {
+    float: left;
+}
+.container-fluid a img{
+    float: left;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.container-fluid a p {
+        font-family: "Poppins";
+        font-weight: bold;
+    margin-top: 10px;
+    color: #577BC1;
+}
+
+/* dashboard admin */
+
+.sidebar {
+    background-color: #DEEBFF;
+    width: 20%;
+    grid-area: sidebar;
+    float: left;
+    box-sizing: border-box;
+    /* display: fixed; */
+    display: block;
+}
+
+.nav-link:hover {
+    background-color: #577BC1;
+    color: white;
+    border-radius: 10px;
+}
+
+.row {
+    width: 100%;
+    /* display: grid; */
+    /* display: flex; */
+    /* grid-template-columns: 50px 100px; */
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'sidebar content content'
+    'sidebar content content'; */
+}
+
+/* content */
+.container{
+    /* margin-left: -100px; */
+    width: 80%;
+    float: right;
+    display: inline;
+    margin-bottom: 50px;
+}
+
+
+
+.content h3 {
+    /* width: 85%; */
+    text-align: center;
+    color: #577BC1;
+    font-weight: bold;
+    margin-left: 100px;
+    text-shadow: 2px 2px 5px grey;
+
+}
+
+.card {
+    margin-left: -250px;
+    border-style: none;
+    margin-left: 30px;
+    height: 138px;
+    /* border-radius: 10px; */
+    box-shadow: 2px 2px 5px grey;
+}
+
+.content > .row {
+    margin-left: -270px;
+    /* margin: 50 auto; */
+}
+
+.content > .row p{
+    font-size: 22px;
+}
+
+.card-footer {
+    width: 288px;
+    margin-left: -28px;
+    height: 75px;
+}
+
+/* dashboard detail antrian admin */
+.detail-antrian-admin {
+    box-shadow: 2px 2px 5px grey;
+    border: 1px solid black;
+    border-style: none;
+    width: 925px;
+    margin-left: 37px;
+    /* justify-content: center; */
+    margin-bottom: 30px !important;
+}
+
+.card-header {
+    display: flex;
+}
+
+.card-antrian {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.card-body h2{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* live antrian admin */
+.card-body p {
+  margin-top: -15px;
+  /* font-size: 8px; */
+}
+
+.card-body .nomor {
+  font-size: 25px;
+}
+
+.card-body span {
+  font-weight: bold;
+}
+
+/* kelola antrian */
+.action {
+    margin-top: -8px;
+}
+
+.action button{
+    border: none;
+    margin-right: 13px;
+    background-color: #577BC1;
+    color: white;
+}
+
+.exportExcel button{
+    background-color: #4CAF50;
+    color: white;
+}

@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+/* Navbar */
+.navbar p {
+  font-family: "Berlin Sans FB";
+  font-weight: bold;
+  color: #577bc1;
+  margin-left: 23%;
+  margin-top: -15%;
+  font-size: 18px;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+.navbar-brand {
+  margin-left: 25px;
+}
+
+.navbar-toggler {
+  margin-right: 20px;
+}
+
+/* .navbar-nav{
+    z-index: 1;
+} */
+
+/* jumbotron */
+.jumbotron {
+  background-color: #1d3557;
+  /* background-size: cover; */
+  height: 600px;
+}
+
+.jumbotron .lingkaran {
+  display: none;
+}
+
+.bengkel {
+  width: 450px;
+  height: 350px;
+  margin-top: 30px;
+}
+
+.teks {
+  width: 450px;
+  text-align: justify;
+  margin-left: 30px;
+  /* z-index: 99; */
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.teks h1 {
+  font-weight: bold;
+}
+
+.jumbotron button {
+  margin-top: 10px;
+  background-color: #bbd8f2;
+  text-align: center;
+  margin-left: 20px;
+  padding: 10px 10px 10px 10px;
+  width: 150px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  text-decoration-color: none;
+}
+
+.jumbotron button:hover{
+  background-color: #577BC1;
+}
+/* info */
+.carousel {
+  margin-left: 65px;
+  width: 100%;
+}
+
+/* tutorial */
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: #577bc1;
+  margin-top: 50px;
+}
+
+.container p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #577bc1;
+  margin-left: 60px;
+}
+
+.tutorial p{
+  text-align: center !important;
+  font-family: "Poppins", sans-serif;
+  color:#577bc1;
+  margin-left: -0px !important;
+  margin-top: 20px;
+}
+
+.tutorial {
+  margin-left: 50px;
+  text-align: center;
+  color: #9097a4;
+}
+
+.tutorial .row img {
+  width: 110px;
+  height: 110px;
+}
+
+.col-lg {
+  background-color: #f5e0a4;
+  margin: 30px;
+  /* margin-left: 20px; */
+  width: 350px;
+  height: 350px;
+  padding-top: 20px;
+  border-radius: 20px;
+  padding: 35px 20px 0 20px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.row h4 {
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.col-lg p {
+  font-size: 15px;
+  color: #9097a4;
+}
+
+/* background */
+.background {
+  display: none;
+}
+
+/* galeri */
+.galeri {
+  /* width: 80%; */
+  margin-top: -25px;
+  position: relative;
+  /* z-index: -999; */
+  margin-bottom: 60px;
+}
+
+.foto {
+  width: 100%;
+  /* margin: auto; */
+  /* border: 10px solid white; */
+  list-style: none;
+  /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  margin-left: 30px;
+  grid-gap: 20px;
+  margin-top: 80px;
+}
+
+.foto img {
+  display: block;
+  width: 350px;
+  border-radius: 15px;
+  height: 376px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 15px;
+}
+
+/* contact */
+.contact {
+  background-color: #1d3557;
+  position: absolute;
+  z-index: -10;
+  width: 100%;
+  /* margin-left:-50px; */
+}
+
+.contact h1 {
+  color: #ffff;
+  margin-top: -40px;
+}
+
+.kiri {
+  margin: 50px;
+  /* float: left; */
+}
+
+.kiri img {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.kiri p {
+  color: white;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.kiri h4 {
+  color: white;
+  margin-left: 100px;
+  font-weight: bold;
+  margin-top: -80px;
+}
+
+.telefon {
+  margin-top: -20px;
+}
+
+/* Maps */
+/* .contact h1 {
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+} */
+
+.maps {
+  margin-left: 30px;
+}
+
+.maps img {
+  width: 44px;
+  height: 43px;
+  margin-top: 10px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+/* footer */
+.footer p {
+  display: block;
+  padding-top: 50px;
+  font-family: "Poppins";
+  color: white;
+  /* padding-left: 100px; */
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+/* Untuk memunculkan tombol */
+.back-to-top.show {
+  bottom: 20px;
+  opacity: 1;
+      background: #8989b7;
+}
+
+.back-to-top svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 1px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.back-to-top:hover {
+    background: #3E3F73;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+/* Desktop Version */
+@media (min-width: 992px) {
+  /* navbar */
+  .navbar p {
+    color: white;
+  }
+
+  .nav-link {
+    color: #577bc1 !important;
+    font-weight: bold;
+    font-family: "Poppins";
+    margin-right: 60px;
+    margin-top: -1%;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #577bc1;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .navbar-nav {
+    color: #577bc1;
+  }
+
+  /* jumbotron */
+  .jumbotron {
+    margin-top: -90px;
+    /* width: 100%; */
+  }
+
+  .jumbotron .lingkaran {
+    width: 1050px;
+    height: 920px;
+    display: inline;
+    margin-left: 520px;
+    margin-top: -400px;
+  }
+
+  .bengkel {
+    /* margin-top: 80px; */
+    margin-top: -450px;
+    width: 741px;
+    height: 519px;
+    position: absolute;
+  }
+
+  .teks {
+    margin-left: 700px;
+    z-index: -999;
+    margin-top: -350px;
+    width: 550px;
+    color: #577bc1;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .teks h1 {
+    font-weight: bold;
+    font-size: 36px;
+  }
+
+  /* tutorial */
+  .container h1 {
+    text-align: center;
+    margin-left: 150px;
+  }
+  .tutorial {
+    margin-left: 60px;
+  }
+
+  .animasi {
+    animation-name: anim;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+  }
+
+  @keyframes anim {
+    from {
+      left: 0;
+    }
+
+    to {
+      left: 200px;
+      background-color: #bbd8f2;
+    }
+  }
+
+  /* background */
+  .background {
+    list-style: none;
+    margin-top: -20px;
+    display: inline;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .ling1 {
+    margin-left: 1080px;
+    display: inline;
+  }
+
+  .ling2 {
+    margin-left: 250px;
+  }
+
+  .ling3 {
+    margin-top: 200px;
+    margin-left: 700px;
+  }
+
+  .ling4 {
+    margin-top: 50px;
+    margin-left: -150px;
+  }
+
+  /* contact */
+  .contact h1 {
+    /* text-align: center; */
+    margin-left: 20px;
+  }
+
+  /* galery */
+  @keyframes foto {
+    to {
+      transform: scale(1.1);
+    }
+  }
+
+  .foto img:hover {
+    cursor: pointer;
+    animation-name: foto;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+  }
+
+  /* contact */
+  .contact h1 {
+    text-align: center;
+    color: white;
+    margin-top: -90px;
+  }
+
+  .maps {
+    float: right;
+    margin-right: 100px;
+    margin-top: -360px;
+    padding: 20px;
+  }
+
+  /* back to top  */
+  .back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  background-color: #072227;
+  opacity: 0;
+  border-radius: 50%;
+  transition: .2s ease-in-out;
+  z-index: 20px;
+}
+
+}
